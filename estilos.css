@@ -1,0 +1,70 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-image: url(./Imagenes/IMG4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+*{
+    box-sizing: border-box;
+}
+.formulario{
+      
+    background-color:whitesmoke;
+    padding: 3px;
+
+}
+h1{
+    text-align: center;
+    color: rgb(71, 71, 71);
+    font-size: 40px;
+}
+
+label{
+    margin: 0% 10%;
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="password"]{
+    margin: 0% 10%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    width: 80%;
+    border: solid dimgray;
+}
+
+.button{
+    margin: 5% 10% 0% 10%;
+    border: none;
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    background-color: darkorange;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:lightsalmon;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color:rgb(71, 71, 71);
+    font-weight: 600;
+}
+.link:hover{
+    background-color:dimgrey;
+}
+@media(min-width:768px){
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
